@@ -10,7 +10,7 @@ const collegeRegistrySchema = new mongoose.Schema({
     required: true
   },
   graduationDate: {
-    type: String,
+    type: Date,
     required: true
   },
   branch: {

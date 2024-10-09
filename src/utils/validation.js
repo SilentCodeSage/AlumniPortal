@@ -7,7 +7,6 @@ const validateSignup = (req) => {
     "email",
     "password",
   ];
-
   const isrequiredFeilds = Object.keys(req).every((k) => {
     return requiredFields.includes(k);
   });
